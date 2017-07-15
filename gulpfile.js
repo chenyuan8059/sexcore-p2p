@@ -1,7 +1,7 @@
 'use strict';
 
 var gulp = require('gulp');
-var litecoreTasks = require('sexcore-build');
+var sexcoreTasks = require('sexcore-build');
 
 sexcoreTasks('p2p', {skipBrowser: true});
 
