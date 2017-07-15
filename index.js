@@ -1,4 +1,4 @@
-var litecore = require('litecore-lib');
-litecore.P2P = require('./lib');
+var litecore = require('sexcore-lib');
+sexcore.P2P = require('./lib');
 
-module.exports = litecore.P2P;
+module.exports = sexcore.P2P;
