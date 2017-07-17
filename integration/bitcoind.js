@@ -26,16 +26,16 @@ var messages = new Messages({
   network: network
 });
 var blockHash = {
-  'livenet': '000000000000000013413cf2536b491bf0988f52e90c476ffeb701c8bfdb1db9',
+  'livenet': '3fc4c25677939ec9011b61df231e5cf0a397bb0b22378f125a09dfbf475ea1e6',
   'testnet': '0000000058cc069d964711cd25083c0a709f4df2b34c8ff9302ce71fe5b45786'
 };
 var stopBlock = {
-  'livenet': '00000000000000000b539ef570128acb953af3dbcfc19dd8e6066949672311a1',
+  'livenet': 'ec5107b60e51d814b71939035331e6e7765298e21f46de80b15390ec35d5dd6f',
   'testnet': '00000000d0bc4271bcefaa7eb25000e345910ba16b91eb375cd944b68624de9f'
 };
 var txHash = {
-  'livenet': '22231e8219a0617a0ded618b5dc713fdf9b0db8ebd5bb3322d3011a703119d3b',
-  'testnet': '22231e8219a0617a0ded618b5dc713fdf9b0db8ebd5bb3322d3011a703119d3b'
+  'livenet': 'e85571937d162a2b7c13dbfd4a9947ba0a69c796dc91c0febfaf9a3f9a1e3570',
+  'testnet': 'e85571937d162a2b7c13dbfd4a9947ba0a69c796dc91c0febfaf9a3f9a1e3570'
 };
 
 // These tests require a running bitcoind instance
