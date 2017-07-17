@@ -17,7 +17,7 @@ describe('Message', function() {
       });
       should.exist(message);
       message.command.should.equal('command');
-      message.network.networkMagic.should.equal(0xd9b4bef9);
+      message.network.networkMagic.should.equal(0xFACE6969);
     });
   });
 
